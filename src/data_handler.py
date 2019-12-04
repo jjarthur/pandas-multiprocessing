@@ -9,5 +9,7 @@ def get_df():
 
 def data():
     df = get_df()
-    data = df[df['foo'] == 'bar'].to_dict() # do something
-    return data
+    return df.to_dict()
+
+if __name__ == '__main__':
+    data()
