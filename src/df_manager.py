@@ -9,6 +9,6 @@ def get_df():
 
 df = init_dataframe()
 manager = BaseManager(('', 37844), b'password')
-manager.register('get_df', get_df)
+manager.register('get_df', callable=get_df, exposed='get_df') # Adding `exposed` parameter was the key to solving the issue
 server = manager.get_server()
 server.serve_forever()

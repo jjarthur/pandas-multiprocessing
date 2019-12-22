@@ -9,7 +9,7 @@ def get_df():
 
 def data():
     df = get_df()
-    return df.to_dict()
+    return df
 
 if __name__ == '__main__':
-    data()
+    print(data())
