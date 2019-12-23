@@ -1,5 +1,5 @@
 # pandas-multiprocessing
-A repo showing off odd behaviour between pandas and multiprocessing
+An example repo showing how to use pandas and multiprocessing together.
 
 ## Setup
 1. pip install -r requirements.txt
@@ -7,4 +7,3 @@ A repo showing off odd behaviour between pandas and multiprocessing
 ## Test steps
 1. python src/df_manager.py
 2. python src/data_handler.py
-3. See stacktrace in logs
